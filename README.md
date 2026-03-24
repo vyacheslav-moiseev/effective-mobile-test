@@ -55,4 +55,6 @@ Hello from Effective Mobile!
 
 ## 📎 Author
 
-Test task implementation
+```
+mslav
+```
