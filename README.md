@@ -58,9 +58,8 @@ Hello from Effective Mobile!
 ### 1. Docker won't start
 Make sure the Docker daemon is running:
 ```bash
-```
 sudo systemctl start docker
-
+```
 
 ## Improvements
 
