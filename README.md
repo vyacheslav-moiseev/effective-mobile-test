@@ -53,6 +53,22 @@ Hello from Effective Mobile!
 * Multi-stage build was not required due to simplicity of the application
 * Backend is not exposed outside Docker network by design
 
+## Troubleshooting
+
+### 1. Docker won't start
+Make sure the Docker daemon is running:
+```bash
+```
+sudo systemctl start docker
+
+
+## Improvements
+
+- Added X-Forwarded-Proto header for correct scheme handling
+- Optimized Docker build with .dockerignore
+- Secured environment variables via .gitignore
+- Improved nginx performance settings
+
 ## 📎 Author
 
 ```
